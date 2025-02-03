@@ -1,0 +1,10 @@
+There are several files that comprise the bisectional model solver for the warm-up portion of Assignment 1.
+
+The first file is "solver_file", which contains the bisection algorithm. In the file, users will be asked to input:
+    1) Integer value for function type
+    2) Decimal value for Tolerance
+    3) Integer values for a and b, to be used in functions f(a) and f(b)
+
+The second file is "functions_file", that the main file (solver_file) will run and which contains functions that the solver will call upon when it is run.
+
+The third file is "tests_file", which contains examples for the functions within functions_file with pre-tested values that verify their effectiveness. 
